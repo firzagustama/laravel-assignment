@@ -44,10 +44,10 @@
 </head>
 <body>
 <div class="container card p-5">
-    <h1>CONTACT US</h1>
+    <p class="display-4">CONTACT US</p>
     <form method="POST" action="/">
         @csrf
-        <div class="inline">
+        <div class="inline form-group">
             <div>
                 <label for="first_name">First Name</label>
                 <input id="first_name" type="text" name="first_name" class="form-control" required>
@@ -57,7 +57,7 @@
                 <input id="last_name" type="text" name="last_name" class="form-control" required>
             </div>
         </div>
-        <div class="inline">
+        <div class="inline form-group">
             <div>
                 <label for="email_address">Email Address</label>
                 <input id="email_address" type="email" name="email_address" class="form-control" required>
